@@ -30,6 +30,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 # Channel 27 (522 MHz) multiplexes
 
 # Channel 33 (570 MHz) multiplexes
+
 | Name            | Subscription | PID            | LCN  |
 |:---------------:|:------------:|:--------------:|:----:|
 | HTV9            | No           | 3701/3801/3701 | 1001 |
@@ -50,6 +51,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 # Channel 34 (578 MHz) multiplexes
 
 # Channel 42 (642 MHz) multiplexes
+
 | Name               | Subscription | PID                | LCN  |
 |:------------------:|:------------:|:------------------:|:----:|
 | An Ninh TV         | Yes          | 5761/5762/5761     | 0004 |
@@ -65,6 +67,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 | THVL1 - Vinh Long  | No           | 1000/2000/1000     | 0039 |
 | Vietnam Today      | Yes          | 1001/1002/1001     | 0010 |
 # Channel 44 (658 MHz) multiplexes
+
 | Name                 | Subscription | PID                | LCN  |
 |:--------------------:|:------------:|:------------------:|:----:|
 | VTV Can Tho          | Yes          | 4121/4122 AAC/4121 | 0017 |
@@ -81,6 +84,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 | BTV9 - An Vien HD    | Yes          | 1000/2000 AAC/1000 | 0044 |
 | HTV9                 | Yes          | 1001/1002 AAC/1001 | 0046 |
 # Channel 45 (666 MHz) multiplexes
+
 | Name               | Subscription | PID                | LCN  |
 |:------------------:|:------------:|:------------------:|:----:|
 | NBTV - Ninh Binh   | No           | 2021/2022/2021     | 0072 |
