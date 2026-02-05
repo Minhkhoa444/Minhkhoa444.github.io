@@ -48,6 +48,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 | BPTTH TAY NINH  | No           | 3715/3815/3715 | 1013 |
 | BPTTH CAN THO 3 | No           | 3716/3816/3716 | 1014 |
 | BPTTH DONG NAI  | No           | 3717/3817/3717 | 1015 |
+
 ## Channel 34 (578 MHz) multiplexes
 
 ## Channel 42 (642 MHz) multiplexes
@@ -66,6 +67,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 | KTV - Khanh Hoa HD | No           | 4811/4812/4811     | 0049 |
 | THVL1 - Vinh Long  | No           | 1000/2000/1000     | 0039 |
 | Vietnam Today      | Yes          | 1001/1002/1001     | 0010 |
+
 ## Channel 44 (658 MHz) multiplexes
 
 | Name                 | Subscription | PID                | LCN  |
@@ -83,6 +85,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 | NHK World            | Yes          | 1135/1136 AAC/1135 | 0026 |
 | BTV9 - An Vien HD    | Yes          | 1000/2000 AAC/1000 | 0044 |
 | HTV9                 | Yes          | 1001/1002 AAC/1001 | 0046 |
+
 ## Channel 45 (666 MHz) multiplexes
 
 | Name               | Subscription | PID                | LCN  |
