@@ -32,7 +32,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 ## Channel 33 (570 MHz) multiplexes
 
 | Name            | Subscription | PID            | LCN  |
-|-----------------|--------------|----------------|------|
+|:---------------:|:------------:|:--------------:|:----:|
 | HTV9            | No           | 3701/3801/3701 | 1001 |
 | HTV7 HD         | No           | 3702/3802/3702 | 1002 |
 | BTV6-SHOPPING 2 | No           | 3703/3803/3703 | 1003 |
