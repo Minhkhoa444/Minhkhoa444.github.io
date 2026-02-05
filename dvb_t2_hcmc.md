@@ -11,7 +11,7 @@ As of February 2026, free-to-air (FTA) DVB-T2 TV saw increasingly less and less 
 My setup included a standard DVB-T2 set-top box (STB) called TOPT2 (based on MStar MSD7T01 SoC and Rafael Micro R836 tuner) from a local company called Vũ Hồng Minh (VHM), a small 4.3 inch TFT LCD (sold on a lot of sites as monitor for car backup camera) and a homemade loop for the antenna. The STB conveniently reports the properties of the modulation of each channel and what is the PID used by the PLPs.
 
 # Result
-A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh City. However, I have difficulty receiving channel 25, 27 and 34 right now as my house is surrounded by taller building near by with no line-of-sight reception.Their modulation parameters are as follow:
+A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh City. However, I have difficulty receiving channel 25, 27 and 34 right now as my house is surrounded by taller building near by with no line-of-sight reception. Their modulation parameters are as follow:
 
 | Channel      | Modulation Schemes | Guard Interval | FEC | FFT |
 |:------------:|:------------------:|:--------------:|:---:|:---:|
