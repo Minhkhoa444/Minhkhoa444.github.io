@@ -5,10 +5,10 @@ layout: page
 ---
 
 # Preface
-As of February 2026, free-to-air (FTA) DVB-T2 TV saw increasingly less and less use in Vietnam, with most TV users trending more and more toward using Internet TV which offered convenience and mobility as they can watch most free channels on phones or laptops in comparison to the annoyance of having to put up and antenna. Moreover, a lot of people used on-demand video services and cable providers for subscription-based TV channels means even less people used paid DVB-T2 services. However, there are still a lot of channels being broadcasted over the air (OTA) but the up-to-date information about their channels and multiplexes are not readily available on the Internet with a lot of outdated information mixed in. This is my attempt at reporting what TV channels are available in Ho Chi Minh City and what are their characteristics.
+As of February 2026, free-to-air (FTA) DVB-T2 TV saw increasingly less and less use in Vietnam, with most TV users trending more and more toward using Internet TV which offered convenience and mobility as they can watch most free channels on phones or laptops in comparison to the annoyance of having to put up and antenna. Moreover, a lot of people used on-demand video services and cable providers for subscription-based TV channels means even less people used paid DVB-T2 services. However, there are still a lot of channels being broadcasted over the air (OTA) but the up-to-date information about their channels and physical layer pipes (PLP) are not readily available on the Internet with a lot of outdated information mixed in. This is my attempt at reporting what TV channels are available in Ho Chi Minh City and what are their characteristics.
 
 # Methodology
-My setup included a standard DVB-T2 set-top box (STB) called TOPT2 (based on MStar MSD7T01 SoC and Rafael Micro R836 tuner) from a local company called Vũ Hồng Minh (VHM), a small 4.3 inch TFT LCD (sold on a lot of sites as monitor for car backup camera) and a homemade loop for the antenna. The STB conveniently reports the properties of the modulation of each channel and what is the PID used by the multiplexes.
+My setup included a standard DVB-T2 set-top box (STB) called TOPT2 (based on MStar MSD7T01 SoC and Rafael Micro R836 tuner) from a local company called Vũ Hồng Minh (VHM), a small 4.3 inch TFT LCD (sold on a lot of sites as monitor for car backup camera) and a homemade loop for the antenna. The STB conveniently reports the properties of the modulation of each channel and what is the PID used by the PLPs.
 
 # Result
 A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh City. However, I have difficulty receiving channel 25, 27 and 34 right now as my house is surrounded by taller building near by with no line-of-sight reception.Their modulation parameters are as follow:
@@ -25,11 +25,11 @@ A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh Ci
 
 There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC based on old information found on the Internet. However, after VTC ceased transmission in early 2025 those 2 channels are no longer in use. In addition, Ho Chi Minh City does not use VHF for TV transmission.
 
-## Channel 25 (506 MHz) multiplexes
+## Channel 25 (506 MHz) PLPs
 
-## Channel 27 (522 MHz) multiplexes
+## Channel 27 (522 MHz) PLPs
 
-## Channel 33 (570 MHz) multiplexes
+## Channel 33 (570 MHz) PLPs
 
 | Name            | Subscription | PID            | LCN  |
 |:---------------:|:------------:|:--------------:|:----:|
@@ -49,9 +49,9 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 | BPTTH CAN THO 3 | No           | 3716/3816/3716 | 1014 |
 | BPTTH DONG NAI  | No           | 3717/3817/3717 | 1015 |
 
-## Channel 34 (578 MHz) multiplexes
+## Channel 34 (578 MHz) PLPs
 
-## Channel 42 (642 MHz) multiplexes
+## Channel 42 (642 MHz) PLPs
 
 | Name               | Subscription | PID                | LCN  |
 |:------------------:|:------------:|:------------------:|:----:|
@@ -68,7 +68,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 | THVL1 - Vinh Long  | No           | 1000/2000/1000     | 0039 |
 | Vietnam Today      | Yes          | 1001/1002/1001     | 0010 |
 
-## Channel 44 (658 MHz) multiplexes
+## Channel 44 (658 MHz) PLPs
 
 | Name                 | Subscription | PID                | LCN  |
 |:--------------------:|:------------:|:------------------:|:----:|
@@ -86,7 +86,7 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 | BTV9 - An Vien HD    | Yes          | 1000/2000 AAC/1000 | 0044 |
 | HTV9                 | Yes          | 1001/1002 AAC/1001 | 0046 |
 
-## Channel 45 (666 MHz) multiplexes
+## Channel 45 (666 MHz) PLPs
 
 | Name               | Subscription | PID                | LCN  |
 |:------------------:|:------------:|:------------------:|:----:|
