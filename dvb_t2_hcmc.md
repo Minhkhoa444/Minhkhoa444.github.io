@@ -11,11 +11,11 @@ As of February 2026, free-to-air (FTA) DVB-T2 TV saw increasingly less and less 
 My setup included a standard DVB-T2 set-top box (STB) called TOPT2 (based on MStar MSD7T01 SoC and Rafael Micro R836 tuner) from a local company called Vũ Hồng Minh (VHM), a small 4.3 inch TFT LCD (sold on a lot of sites as monitor for car backup camera) and a homemade loop for the antenna. The STB conveniently reports the properties of the modulation of each channel and what is the PID used by the PLPs.
 
 # Result
-A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh City. However, I have difficulty receiving channel 25, 27 and 34 right now as my house is surrounded by taller building near by with no line-of-sight reception. Their modulation parameters are as follow:
+A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh City. However, I have difficulty receiving channel 27 and 34 right now as my house is surrounded by taller building near by with no line-of-sight reception. Their modulation parameters are as follow:
 
 | Channel      | Modulation Schemes | Guard Interval | FEC | FFT |
 |:------------:|:------------------:|:--------------:|:---:|:---:|
-| 25 (506 MHz) |                    |                |     |     |
+| 25 (506 MHz) | 256-QAM            | 1/8            | 3/5 | 32k |
 | 27 (522 MHz) |                    |                |     |     |
 | 33 (570 MHz) | 64-QAM             | 1/8            | 3/4 | 32k |
 | 34 (578 MHz) |                    |                |     |     |
@@ -26,6 +26,19 @@ A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh Ci
 There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC based on old information found on the Internet. However, after VTC ceased transmission in early 2025 those 2 channels are no longer in use. In addition, Ho Chi Minh City does not use VHF for TV transmission.
 
 ## Channel 25 (506 MHz) PLPs
+
+| Name          | Subscription | PID            | LCN  |
+|:-------------:|:------------:|:--------------:|:----:|
+| VTV4 SD       | No           | 1041/1042/1041 | 0014 |
+| VTV5 HD       | No           | 1051/1052/1051 | 0005 |
+| VTV7 SD       | No           | 1071/1072/1071 | 0017 |
+| VTV8 HD       | No           | 1081/1082/1081 | 0008 |
+| VTV1 HD       | No           | 1111/1112/1111 | 0001 |
+| VTV2 HD       | No           | 1121/1122/1121 | 0002 |
+| VTV3 HD       | No           | 1131/1132/1131 | 0003 |
+| VTV Can Tho   | No           | 1161/1162/1161 | 0006 |
+| VTV9 HD       | No           | 1191/1192/1191 | 0009 |
+| Vietnam Today | No           | 1201/1202/1201 | 0020 |
 
 ## Channel 27 (522 MHz) PLPs
 
