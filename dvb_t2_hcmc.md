@@ -11,14 +11,14 @@ As of February 2026, free-to-air (FTA) DVB-T2 TV saw increasingly less and less 
 My setup included a standard DVB-T2 set-top box (STB) called TOPT2 (based on MStar MSD7T01 SoC and Rafael Micro R836 tuner) from a local company called Vũ Hồng Minh (VHM), a small 4.3 inch TFT LCD (sold on a lot of sites as monitor for car backup camera) and a homemade loop for the antenna. The STB conveniently reports the properties of the modulation of each channel and what is the PID used by the PLPs.
 
 # Result
-A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh City. However, I have difficulty receiving channel 27 and 34 right now as my house is surrounded by taller building near by with no line-of-sight reception. Their modulation parameters are as follow:
+A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh City. Their modulation parameters are as follow:
 
 | Channel      | Modulation Schemes | Guard Interval | FEC | FFT |
 |:------------:|:------------------:|:--------------:|:---:|:---:|
 | 25 (506 MHz) | 256-QAM            | 1/8            | 3/5 | 32k |
-| 27 (522 MHz) |                    |                |     |     |
+| 27 (522 MHz) | 256-QAM            | 1/8            | 3/5 | 32k |
 | 33 (570 MHz) | 64-QAM             | 1/8            | 3/4 | 32k |
-| 34 (578 MHz) |                    |                |     |     |
+| 34 (578 MHz) | 256-QAM            | 1/8            | 2/3 | 32k |
 | 42 (642 MHz) | 256-QAM            | 1/8            | 3/5 | 32k |
 | 44 (658 MHz) | 256-QAM            | 1/8            | 3/5 | 32k |
 | 45 (666 MHz) | 256-QAM            | 1/8            | 3/5 | 32k |
@@ -42,27 +42,46 @@ There used to be 2 more UHF channels (channel 30 and channel 55) used by VTC bas
 
 ## Channel 27 (522 MHz) PLPs
 
+| Name         | Subscription | PID            | LCN  |
+|:------------:|:------------:|:--------------:|:----:|
+| VTV4 HD      | No           | 1141/1142/1141 | 1001 |
+| VTV7 HD      | No           | 1171/1172/1171 | 1002 |
+| VTV5 TNB HD  | No           | 1511/1512/1511 | 1003 |
+| CAN THO 3 HD | No           | 1251/1351/1251 | 1004 |
+
 ## Channel 33 (570 MHz) PLPs
 
 | Name            | Subscription | PID            | LCN  |
 |:---------------:|:------------:|:--------------:|:----:|
-| HTV9            | No           | 3701/3801/3701 | 1001 |
-| HTV7 HD         | No           | 3702/3802/3702 | 1002 |
-| BTV6-SHOPPING 2 | No           | 3703/3803/3703 | 1003 |
-| HTV1 HD         | No           | 3704/3804/3704 | 1004 |
-| TH CAN THO 1 HD | No           | 3705/3805/3705 | 1005 |
-| QPVN HD         | No           | 3706/3806/3706 | 1006 |
-| SCTV10          | No           | 3707/3807/3707 | 1007 |
-| TH DONG THAP 2  | No           | 2108/1108/2108 | 1008 |
-| TH DONG THAP 1  | No           | 3709/3809/3709 | 1009 |
-| HTV THE THAO    | No           | 3712/3812/3712 | 1010 |
-| BPTTH DA NANG 2 | No           | 3713/3813/3713 | 1011 |
-| TH BINH THUAN   | No           | 3714/3814/3714 | 1012 |
-| BPTTH TAY NINH  | No           | 3715/3815/3715 | 1013 |
-| BPTTH CAN THO 3 | No           | 3716/3816/3716 | 1014 |
-| BPTTH DONG NAI  | No           | 3717/3817/3717 | 1015 |
+| HTV9            | No           | 3701/3801/3701 | 1005 |
+| HTV7 HD         | No           | 3702/3802/3702 | 1006 |
+| BTV6-SHOPPING 2 | No           | 3703/3803/3703 | 1007 |
+| HTV1 HD         | No           | 3704/3804/3704 | 1008 |
+| TH CAN THO 1 HD | No           | 3705/3805/3705 | 1009 |
+| QPVN HD         | No           | 3706/3806/3706 | 1010 |
+| SCTV10          | No           | 3707/3807/3707 | 1011 |
+| TH DONG THAP 2  | No           | 2108/1108/2108 | 1012 |
+| TH DONG THAP 1  | No           | 3709/3809/3709 | 1013 |
+| HTV THE THAO    | No           | 3712/3812/3712 | 1014 |
+| BPTTH DA NANG 2 | No           | 3713/3813/3713 | 1015 |
+| TH BINH THUAN   | No           | 3714/3814/3714 | 1016 |
+| BPTTH TAY NINH  | No           | 3715/3815/3715 | 1017 |
+| BPTTH CAN THO 3 | No           | 3716/3816/3716 | 1018 |
+| BPTTH DONG NAI  | No           | 3717/3817/3717 | 1019 |
 
 ## Channel 34 (578 MHz) PLPs
+
+| Name            | Subscription | PID            | LCN  |
+|:---------------:|:------------:|:--------------:|:----:|
+| TH An Giang 2   | No           | 100/101/100    | 1020 |
+| TH CAN THO 2    | No           | 4205/4305/4025 | 1021 |
+| THVL1-HD        | No           | 4215/4315/4215 | 1022 |
+| THVL2-HD        | No           | 4216/4316/4216 | 1023 |
+| THVL3-HD        | No           | 4218/4318/4218 | 1024 |
+| THVL4-HD        | No           | 4219/4319/4219 | 1025 |
+| THVL5-HD        | No           | 4202/4302/4202 | 1026 |
+| TH An Giang 1   | No           | 4206/4306/4206 | 1027 |
+| TH Ca Mau       | No           | 4201/4301/4201 | 1028 |
 
 ## Channel 42 (642 MHz) PLPs
 
