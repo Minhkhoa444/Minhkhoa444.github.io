@@ -10,7 +10,12 @@ As of February 2026, free-to-air (FTA) DVB-T2 TV saw increasingly less and less 
 # Methodology
 My setup included a standard DVB-T2 set-top box (STB) called TOPT2 (based on MStar MSD7T01 SoC and Rafael Micro R836 tuner) from a local company called Vũ Hồng Minh (VHM), a small 4.3 inch TFT LCD (sold on a lot of sites as monitor for car backup camera) and a homemade loop for the antenna. The STB conveniently reports the properties of the modulation of each channel and what is the PID used by the PLPs.
 
-![DIY DVB-T2 loop antenna](assets/dvb_t2_diy_uhf_loop.jpg)
+<figure style="text-align:center;">
+  <img src="{{ '/assets/dvb_t2_diy_uhf_loop.jpg' | relative_url }}" 
+       alt="DIY UHF loop antenna" 
+       style="width:50%; height:auto;">
+  <figcaption>Image: DIY UHF loop antenna</figcaption>
+</figure>
 
 # Result
 A scan revealed that there are 7 UHF channels currently in use in Ho Chi Minh City. Their modulation parameters are as follow:
